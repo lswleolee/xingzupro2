@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language value="English">
+
+  <MasterPage>
+    <Button>
+      <btnSearch>Search</btnSearch>
+      <btnLogin>LoginAdminPanel</btnLogin>
+      
+    </Button>
+    <Label>
+      <lblDesign>Design By Peng Studio </lblDesign>
+      <lblBigBannerTitle>Professional LED Light Supplier</lblBigBannerTitle>
+      <lblSmallBannerTitle1>Superior Quality, Fast Delivery</lblSmallBannerTitle1>
+      <lblSmallBannerTitle2>Full Certificates, Competitive Price</lblSmallBannerTitle2>
+      <lblbanquan>Copyright © 2013-2014 J-STAR LED LIMITED All Rights Reserved.</lblbanquan>
+      <Label1>Chat Online</Label1>
+    </Label>
+  </MasterPage>
+  <ProductList>
+    <Label>
+      <lblBigTitle>All Product</lblBigTitle>
+      <ProductSearchListTitle>Search List</ProductSearchListTitle>
+      <lblPRODUCTLIST>PRODUCT LIST</lblPRODUCTLIST>
+      <lblCategory>Category</lblCategory>
+      <lblSearchtitle>Search By:</lblSearchtitle>
+      <lblInquireProductTitle>Fill in your inquiry details</lblInquireProductTitle>
+      <lblName>Name</lblName>
+      <lblSex>Sex</lblSex>
+      <lblEmail>Business E-mail</lblEmail>
+      <lblsSubject>Subject</lblsSubject>
+      <lblsMessage>Message</lblsMessage>
+      <lblsCountry>Country/Territory</lblsCountry>
+      <lblInquireProductListTitle>Your Inquiry Product List</lblInquireProductListTitle>
+
+      <lblProductTypetitle>Product Type</lblProductTypetitle>
+      <lblPlaceoforigintitle>Place of origin</lblPlaceoforigintitle>
+      <lblModelNotitle>Model No</lblModelNotitle>
+      <lblPriceTermstitle>Price Terms</lblPriceTermstitle>
+      <lblPaymentTermstitle>Payment Terms</lblPaymentTermstitle>
+      <lblPackagetitle>Package</lblPackagetitle>
+      <lblMinimumOrdertitle>Minimum Order</lblMinimumOrdertitle>
+      <lblDeliveryTimetitle>Delivery Time</lblDeliveryTimetitle>
+      <lblBrandNametitle>Brand Name</lblBrandNametitle>
+    
+  </Label>
+
+    <Button>
+      <btnSearch>Search</btnSearch>
+      <btnSubmit>Submit</btnSubmit>
+    </Button>
+    
+  
+    
+  </ProductList>
+  <Default>
+    <Label>
+      <lblBigTitle> APPLICATION</lblBigTitle>
+      <lblPRODUCTLISTTitle>PRODUCT LIST</lblPRODUCTLISTTitle>
+    </Label>
+
+  </Default>
+  <Support>
+    <Label>
+
+      <lblSUPPORTTitle>SUPPORT</lblSUPPORTTitle>
+    </Label>
+  </Support>
+  <Service>
+    <Label>
+      <lblSERVICETitle>SERVICE</lblSERVICETitle>
+    </Label>
+  </Service>
+  <InfoCenter>
+    <Label>
+      <lblINFOCENTERTitle>INFOCENTER</lblINFOCENTERTitle>
+    </Label>
+  </InfoCenter>
+  <Application>
+    <Label>
+      <lblAPPLICATIONTitle>APPLICATION</lblAPPLICATIONTitle>
+    </Label>
+  </Application>
+  <Aboutus>
+    <Label>
+      <lblABOUTUSTitle>ABOUT US</lblABOUTUSTitle>
+    </Label>
+  </Aboutus>
+  <ContactUs>
+    <Label>
+      <lblBigTitle>Contact Us</lblBigTitle>
+      <lblCONTACTUSTitle>CONTACT US</lblCONTACTUSTitle>
+      <lbContactusTitle>Fill in your inquiry details</lbContactusTitle>
+      <lbltitle>Title</lbltitle>
+      <lblName>Name</lblName>
+      <lblCompanyName>Company Name</lblCompanyName>
+      <lblAddress>Address</lblAddress>
+      <lblEmail>Business E-mail</lblEmail>
+      <lblFax>Fax</lblFax>
+      <lblPhone>Phone</lblPhone>
+      <lblsContent>Content</lblsContent>
+    </Label>
+    <Button>
+      <btnSubmit>Submit</btnSubmit>
+    </Button>
+  </ContactUs>
+  <leftFAQsControl>
+    <Label>
+      <lblFAQSleft>FAQS</lblFAQSleft>
+    </Label>
+    <Button>
+      <btnMoreFaqs>More</btnMoreFaqs>
+    </Button>
+  </leftFAQsControl>
+  <leftInfoCenterControl>
+    <Label>
+      <lbltitleleft>Info. Center</lbltitleleft>
+    </Label>
+    <Button>
+      <btnMoreFaqs>More</btnMoreFaqs>
+    </Button>
+  </leftInfoCenterControl>
+  <TopicDetailShowControl>
+    <Label>
+      <lblBigTitle>ABOUT US</lblBigTitle>
+    </Label>
+  </TopicDetailShowControl>
+</language>

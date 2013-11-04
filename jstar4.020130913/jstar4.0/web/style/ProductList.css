@@ -1,0 +1,137 @@
+﻿.ProductContent
+{
+      padding:10px 5px 10px 5px;
+      width:680px; 
+}
+.ProductSearch
+{
+    line-height:12px;
+     text-align:center;
+}
+.ProductList
+{
+     padding:3px;
+}
+.ProductList .lvProductRow
+{
+      margin-top:10px;
+      
+}
+.ProductList .lvProductRow .lefttb
+{
+     
+     width:150px;
+     padding:5px 5px 5px 5px;
+      border:1px solid #666;
+}
+.ProductList .lvProductRow .righttb
+{
+   padding:12x 5px 5px 8px;
+     height:150px;
+     
+}
+.ProductList .lvProductRow .righttb1
+{
+    padding:3px;
+    width:510px;
+    height:20px;
+     font-weight:bold;
+       
+}
+.ProductList .lvProductRow .righttb1 a
+{
+     color:#333;
+}
+.ProductList .lvProductRow .righttb1 a:hover
+{
+     text-decoration:none;
+}
+.ProductList .lvProductRow .righttb2
+{
+    width:510px;
+height:85px;
+      padding:3px;
+}
+.ProductList .lvProductRow .righttb3
+{
+    height:20px;
+    width:510px;
+      padding:3px;
+     text-align:right;
+}
+
+/*---------------------Detail--------------------*/
+.ProductDetail
+{
+    padding:10px 5px 10px 5px;
+    width:690px;
+}
+.ProductDetailTop
+{
+   
+     height:380px;
+}
+
+.ProductDetailTop .BigIMG
+{ 
+     padding:5px;
+     float:left;
+     width:340px;
+}
+.ProductDetailTop .SmallIMGList
+{
+     float:left;
+     width:90px;
+     padding:5px 5px 5px 5px;
+     
+}
+.ProductDetailTop .SmallIMGList .imgItem
+{
+     
+     width:110px;
+     padding:5px;
+}
+.ProductDetailTop .DetailList
+{
+     float:left;
+     width:230px;
+     padding:5px;
+}
+.ProductDetailTop .DetailList ul
+{
+    
+     list-style:none;
+      margin:0px;
+       border:0px;
+       padding:3px 3px 3px 3px;
+}
+.ProductDetailTop .DetailList ul li
+{
+    font-weight:bold;
+    font-size:13px;
+     color:#333;
+     list-style:none;
+      margin:0px;
+       border:0px;
+       padding:3px 3px 3px 3px;
+}
+
+.divProductselected
+{
+     text-align:left;
+}
+.divProductselected a
+{
+    text-decoration:none;
+    color:#fff;
+     font-weight:bold;
+      font-size:13px;
+}
+.divProductselected a:hover
+{
+     text-decoration:underline;
+    
+     font-weight: normal;
+     
+     font-size:13px;
+}

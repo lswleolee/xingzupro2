@@ -1,0 +1,69 @@
+﻿
+
+.ListViewStyle {
+font: normal;
+color: #333;
+background: #E6EAE9;
+ text-align:left;
+padding: 0;
+margin: 0;
+}
+
+.ListViewStyle .ListViewHead th a {
+color: #fcfcfc;
+}
+
+
+
+.ListViewStyle .ListViewHead th{
+font: bold;
+color: #fff;
+/*border-right: 1px solid #333333;
+border-bottom: 1px solid #333333;
+border-top: 1px solid #333333;*/
+
+background: #60c8f2;
+text-align: left;
+padding: 4px 8px 4px 8px;
+
+/*background:  url('../images/TableHead.png') top left repeat-x !important;*/
+}
+.ListViewStyle .ListViewHead th.roundedleft{
+font: bold;
+color: #fcfcfc;
+min-width:60px;
+
+text-align: left;
+padding: 4px 4px 4px 6px;
+
+background:  url('../images/left.jpg') left top no-repeat #60c8f2;
+}
+.ListViewStyle .ListViewHead th.roundedright{
+font: bold;
+color: #fcfcfc;
+min-width:60px;
+
+text-align: left;
+padding: 4px 4px 4px 6px;
+
+background:  url('../images/right.jpg') right top no-repeat #60c8f2;
+}
+
+.ListViewStyle .ListViewRow td
+{
+  
+border-right: 1px solid #e6e6e6;
+border-bottom: 1px solid #e6e6e6;
+background: #fff;
+
+padding: 4px 4px 4px 8px;
+color: #333333;
+}
+
+.ListViewStyle .ListViewRow td a {
+color: #333333;
+}
+.ListViewStyle .ListViewRow td .imgbtn
+{
+    margin:auto 5px auto 5px;
+}

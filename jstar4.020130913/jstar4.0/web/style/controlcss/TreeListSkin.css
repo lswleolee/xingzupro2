@@ -1,0 +1,29 @@
+﻿.TreeViewSkin .TreeRootNode
+{
+      
+    color:#000;
+   /*background-color:#596795;*/
+    padding: 4px 4px 4px 4px;  
+    font-size: 13px;
+}
+.TreeViewSkin .LeafTreeNode
+{
+    color:#333333;
+  
+    padding: 4px 4px 4px 4px;  
+    font-size: 13px;
+}
+.TreeViewSkin .HoverTreeNode
+{
+    color:#ffffff;
+    background-color:#ff6633;
+    padding: 4px 4px 4px 4px;  
+    font-size: 13px;
+}
+.TreeViewSkin .SelectedTreeNode
+{
+    color:#ffffff;
+    background-color:#ff9933;
+    padding: 4px 4px 4px 4px;  
+    font-size: 13px;
+}

@@ -1,0 +1,155 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="managepage_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="style/master.css" rel="stylesheet" type="text/css" />
+    <link href="style/Treesidebar.css" rel="stylesheet" type="text/css" />
+    <link href="style/controlcss/ListViewRoundblue.css" rel="stylesheet" type="text/css" />
+    <link href="style/controlcss/TableStyle1.css" rel="stylesheet" type="text/css" />
+    <link href="../style/controlcss/Button.css" rel="stylesheet" type="text/css" />
+    <link href="../style/controlcss/TreeListSkin.css" rel="stylesheet" type="text/css" />
+    <link href="../style/controlcss/ShowMessage.css" rel="stylesheet" type="text/css" />
+    <link href="style/ckeditor.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div  class="container">
+    <div class="header">
+    
+    <div class="logo"></div>
+    <div class="right_header">
+    
+    
+        <asp:Label ID="lblwelcome" runat="server" Text="Welcome!  "></asp:Label>
+        <asp:Label ID="lblusername" runat="server" Text="username"></asp:Label>
+        |<asp:HyperLink ID="hlviewsite" runat="server">查看前台页面</asp:HyperLink>
+        |<asp:LinkButton ID="lbtnLogOut" runat="server" CssClass="logout" 
+            onclick="lbtnLogOut_Click">退出登陆</asp:LinkButton>
+    
+    
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+    
+    
+    </div>
+    </div>
+    <div class="content">
+    <div class="menu">
+    
+        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" >
+            <Items>
+                <asp:MenuItem Text="后台首页" Value="后台首页" NavigateUrl="~/manage/Default.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="网站配置" Value="网站配置">
+                   
+                </asp:MenuItem>
+                <asp:MenuItem Text="备份数据库" Value="备份数据库">
+
+                </asp:MenuItem>
+                <asp:MenuItem Text="个人信息修改" Value="用户信息修改" NavigateUrl="~/manage/Default.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="查看留言" Value="查看留言" NavigateUrl="~/manage/Contact/Contact.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="查看需求" Value="查看需求" NavigateUrl="~/manage/Inquiry/Inquiry.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="编辑用户" Value="编辑用户" NavigateUrl="~/manage/Default.aspx"></asp:MenuItem>
+            </Items>
+            <StaticMenuItemStyle CssClass="item" />
+      
+        
+        </asp:Menu>
+    
+    </div>
+
+    <div class="center_content">
+    <div class="left_content">
+
+    <div>
+        <asp:TreeView ID="TreeView1" runat="server" CssClass="sidebar" 
+            ShowExpandCollapse="False" 
+            onselectednodechanged="TreeView1_SelectedNodeChanged">
+        <RootNodeStyle CssClass="headeritem" />
+            <Nodes>
+                <asp:TreeNode Text="编辑产品及产品类型" Value="1">
+                    <asp:TreeNode Text="新建产品类型" Value="11" NavigateUrl="~/Manage/Product/AddProductCategory.aspx"></asp:TreeNode>
+                    <asp:TreeNode Text="编辑产品类型" Value="12" NavigateUrl="~/Manage/Product/EditProductCategory.aspx"></asp:TreeNode>
+                    <asp:TreeNode Text="新建产品" Value="13" NavigateUrl="~/Manage/Product/AddProduct.aspx"></asp:TreeNode>
+                    <asp:TreeNode Text="编辑产品" Value="14" NavigateUrl="~/Manage/Product/EditProduct.aspx"></asp:TreeNode>
+                </asp:TreeNode>
+                <asp:TreeNode Text="设置栏目" Value="2">
+                    <asp:TreeNode Text="新建栏目" Value="21" NavigateUrl="~/Manage/Topic/AddTopicCategory.aspx"></asp:TreeNode>
+                     <asp:TreeNode Text="编辑栏目" Value="22" NavigateUrl="~/Manage/Topic/EditTopicCategory.aspx"></asp:TreeNode>
+                </asp:TreeNode>
+                <asp:TreeNode Text="设置相册" Value="3">
+                    <asp:TreeNode Text="新建相册" Value="31" NavigateUrl="~/Manage/Album/AddAlbum.aspx"></asp:TreeNode>
+                     <asp:TreeNode Text="编辑相册" Value="32" NavigateUrl="~/Manage/Album/EditAlbum.aspx"></asp:TreeNode>
+                </asp:TreeNode>
+                <asp:TreeNode Text="设置FAQ" Value="4">
+                    <asp:TreeNode Text="新建FAQ" Value="41" NavigateUrl="~/Manage/FAQ/AddFAQ.aspx"></asp:TreeNode>
+                     <asp:TreeNode Text="编辑FAQ" Value="42" NavigateUrl="~/Manage/FAQ/EditFAQ.aspx"></asp:TreeNode>
+                </asp:TreeNode>
+                <asp:TreeNode Text="设置联系" Value="5">
+                    <asp:TreeNode Text="新建联系" Value="51" NavigateUrl="~/Manage/Link/AddLink.aspx"></asp:TreeNode>
+                     <asp:TreeNode Text="编辑联系" Value="52" NavigateUrl="~/Manage/Link/EditLink.aspx"></asp:TreeNode>
+                </asp:TreeNode>
+                 <asp:TreeNode Text="设置新闻" Value="6">
+                    <asp:TreeNode Text="新建新闻" Value="61" NavigateUrl="~/Manage/News/AddNews.aspx"></asp:TreeNode>
+                     <asp:TreeNode Text="编辑新闻" Value="62" NavigateUrl="~/Manage/News/EditNews.aspx"></asp:TreeNode>
+                </asp:TreeNode>
+                <asp:TreeNode Text="主页自定义界面设置" Value="7">
+                    <asp:TreeNode Text="联系地址编辑" Value="71" NavigateUrl="~/Manage/OptionSys/ContactInformation.aspx"></asp:TreeNode>
+                     <asp:TreeNode Text="自定义编辑1" Value="72" NavigateUrl="~/Manage/OptionSys/CustomInformation1.aspx"></asp:TreeNode>
+                     <asp:TreeNode Text="自定义编辑2" Value="73" NavigateUrl="~/Manage/OptionSys/CustomInformation2.aspx"></asp:TreeNode>
+                     <asp:TreeNode Text="自定义编辑3" Value="74" NavigateUrl="~/Manage/OptionSys/CustomInformation3.aspx"></asp:TreeNode>
+                </asp:TreeNode>
+            </Nodes>
+        <ParentNodeStyle  CssClass="headeritem" />
+        <LeafNodeStyle   CssClass="item"/>
+
+        </asp:TreeView>
+        </div>
+        <div class="sidebar_box">
+                <div class="sidebar_box_top"></div>
+                <div class="sidebar_box_content">
+                <h3>
+            <asp:Label ID="Label2" runat="server" Text="公告通知"></asp:Label></h3>
+               <asp:Image ID="Image2" runat="server"  ImageUrl="~/manage/style/images/info.png"  class="sidebar_icon_right"/>
+                
+      
+               <p>
+            <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+                         </p>     
+                </div>
+                <div class="sidebar_box_bottom"></div>
+            </div>
+            <div class="sidebar_box">
+                <div class="sidebar_box_top"></div>
+                <div class="sidebar_box_content">
+                <h3>
+            <asp:Label ID="Label3" runat="server" Text="用户提示"></asp:Label></h3>
+                    <asp:Image ID="Image1" runat="server"  ImageUrl="~/manage/style/images/notice.png"  class="sidebar_icon_right"/>
+                
+               <p>
+            <asp:Label ID="Label4" runat="server" Text="系统提供备份功能,请适时备份数据以免出现误删,出现重大问题请联系开发公司"></asp:Label>
+                         </p>     
+                </div>
+                <div class="sidebar_box_bottom"></div>
+            </div>
+    </div>
+
+    <div class="right_content">
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div style=" clear:both;"></div>
+    </div>
+    
+    
+    </div>
+        
+    </div>
+    </form>
+</body>
+</html>

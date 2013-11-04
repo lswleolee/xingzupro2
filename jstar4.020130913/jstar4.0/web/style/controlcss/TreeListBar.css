@@ -1,0 +1,75 @@
+﻿.TreeListBardivItem
+{
+    width: 180px;
+         padding: 6px 10px 6px 18px;    
+                    /* background-image:url('../images/sidebar_menu_top.gif');*/
+                    background-image:url('../images/leftbar.png');
+                      background-repeat:repeat-x;
+                     background-position:top center;
+    
+               color: #333;
+                font-size: 13px;
+                text-decoration: none;
+             text-align:left;
+                font-weight:bold;
+}
+.TreeListBardivItemhover
+{         
+              
+                    padding: 6px 10px 6px 18px;    
+                  
+                     /*background-image:url('../images/sidebar_menu_top.gif');*/
+                     background-image:url('../images/leftbarac.png');
+                     background-repeat:repeat-x;
+                     background-position:top center;
+              
+                  text-align:left;
+                color: #333;
+                font-size: 13px;
+                text-decoration: none;
+                width: 180px;
+                font-weight:bold;
+              
+                  border:0px;
+            
+ }
+ .TreeListBardivItemhover a
+ {
+     text-decoration: none; 
+    color:#fff;
+ }
+.TreeListBardivItem:hover
+{         
+       
+               padding: 6px 10px 6px 18px;  
+                  
+                     /*background-image:url('../images/sidebar_menu_top.gif');*/
+                     background-image:url('../images/leftbarac.png');
+                     background-repeat:repeat-x;
+                     background-position:top center;
+              
+                  text-align:left;
+                color: #333;
+                font-size: 13px;
+                text-decoration: none;
+                width: 180px;
+                font-weight:bold;
+              
+                  border:0px;
+            
+ }
+ .TreeListBardivItem:hover a
+ {
+      text-decoration: none; 
+    color:#fff;
+ }
+.TreeListBardivItem a
+{
+    text-decoration: none; 
+    color: #333;
+}
+.TreeListBardivItem a:hover
+{
+    text-decoration: none; 
+    color:#fff;
+}

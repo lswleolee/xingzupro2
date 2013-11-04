@@ -1,0 +1,53 @@
+﻿
+.ListViewStyle {
+font: normal;
+color: #4f6b72;
+background: #E6EAE9;
+ text-align:left;
+padding: 0;
+margin: 0;
+}
+
+.ListViewStyle .ListViewHead th a {
+color: #fcfcfc;
+}
+
+
+
+.ListViewStyle .ListViewHead th{
+font: bold;
+color: #fcfcfc;
+border-right: 1px solid #333333;
+border-bottom: 1px solid #333333;
+border-top: 1px solid #333333;
+
+text-transform: uppercase;
+text-align: left;
+padding: 4px 4px 4px 6px;
+
+background:  url('../images/TableHead.png') top left repeat-x !important;
+}
+
+
+
+.ListViewStyle .ListViewRow td
+{
+  
+border-right: 1px solid #e6e6e6;
+border-bottom: 1px solid #e6e6e6;
+background: #fff;
+
+padding: 4px 4px 4px 8px;
+color: #333333;
+}
+
+.ListViewStyle .ListViewRow td a {
+color: #333333;
+}
+
+/*
+.ListViewStyle tr:hover{ 
+
+background-color: #DEF7F2; 
+color: #000000; 
+}*/

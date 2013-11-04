@@ -1,0 +1,349 @@
+﻿p,span 
+{
+    padding:0px;
+    border:0px;
+    margin:0px;
+}
+
+body 
+{
+   
+font-family:微软雅黑, 黑体, 新宋体, Arial, Helvetica, sans-serif;
+padding:0;
+font-size:12px;
+margin:0 auto;
+color: #000;
+
+}
+.head
+{
+background: url('images/headbgnew.jpg') no-repeat top center;
+
+position: relative;
+
+}
+.headcontain
+{
+    /*background: url(../images/header_top.jpg) no-repeat center top;*/
+width:  994px;
+
+position: relative;
+margin: 0 auto;
+}
+
+/*-----------headtop----------------*/
+.headtop
+{
+    /*background: url(../images/header_top.jpg) no-repeat center top;*/
+width: 994px;
+height: 68px;
+position: relative;
+margin: 0 auto;
+
+}
+.headtop .headtopleft
+{
+    width:250px;
+    float:left;
+    height:68px;
+    font-size:30px;
+  margin:0px 20px 0px 20px;
+      vertical-align:middle;
+}
+.headtop .headtopmiddle
+{
+    
+    width:280px;
+    float:right;
+    height:30px;
+    
+     text-align:right;
+     font-size:13px;
+ margin:20px 20px auto 20px;
+      padding:5px;
+      
+      vertical-align:top;
+}
+.headtop .headtopmiddle a
+{
+     margin-left:18px;
+      margin-right:5px;
+     vertical-align:top;
+     color:#fff;
+    text-decoration:none;
+}
+.headtop .headtopmiddle a:hover
+{
+     vertical-align:top;
+    color:#ff9933;
+     text-decoration:"underline";
+}
+.headtop .headtopright
+{
+    width:250px;
+    float:right;
+    height:30px;
+    
+     text-align:center;
+     font-size:13px;
+ margin:20px 5px 0 5px;
+      
+   
+      
+}
+
+.headtop .headtopright .inputbox 
+{
+    
+    background:url('images/search_bg.gif') no-repeat;width:128px; border:none; padding:5px 28px 4px 2px; color:#CECECE;}
+
+
+.headmenu
+{
+   background: url('images/menubg1.png') no-repeat center top;
+width:  994px;
+height:90px; 
+ line-height:90px;
+ font-size:14px;
+margin: 0 auto;
+
+}
+.headmenu .menu
+{
+   background: url('images/menubgfix.png') repeat-x left center;
+ height:40px;
+ width:100%;
+   /*   float:left;
+  position:relative
+      top:50%;
+      margin-top:-20px;*/
+      border:0px;
+      margin:0px;
+       font-size:times new roman;
+}
+.headmenu .menu .mainmenu
+{
+   background: url('images/mainnav_bg2.gif') no-repeat left center;
+     background-repeat:no-repeat;
+      background-position:1px 50%;
+     padding:2px 2px 2px 40px;  
+     height:40px;
+     
+}
+.headmenu .menu .mainmenuselected
+{
+     background: url('images/mainnav_bg4.gif') no-repeat left center  ;
+     background-repeat:no-repeat;
+      background-position:1px 50%;
+     padding:2px 2px 2px 40px;
+     height:40px;
+}
+.headmenu .menu .mainmenuselected a
+{
+   /* background: url('images/mainnav_bg2.gif') no-repeat left center ;*/
+    background-image:none;
+       font-weight:bold;
+     color:#fff;
+}
+.headmenu .menu .mainmenu a
+{
+     /* background: url('images/mainnav_bg2.gif') no-repeat left center ;*/
+     padding:0px;
+    background-image:none;
+       font-weight:bold;
+     color:#fff;
+      
+}
+
+.headmenu  .popmenu 
+{
+     line-height:30px;
+    background:#333;
+    border:1px solid #000;
+    padding:2px 22px 2px 22px;
+    text-align:left;
+    color:#fff;
+     
+}
+.headmenu  .popmenu  a
+{
+    text-decoration: none;
+  height:30px;
+    color:#fff;
+     font-size:13px;
+   
+}
+.headmenu  .popmenu  a:hover
+{
+    text-decoration: underline;
+ 
+   
+}
+
+.headbanner
+{
+    /*background: url(../images/header_top.jpg) no-repeat center top;*/
+width:  994px;
+ height:300px;
+position: relative;
+margin: 0 auto;
+    top: 0px;
+    left: 0px;
+     
+}
+.headbanner h1
+{
+     margin:35px auto 10px 25px;
+      color:#333;
+
+    font-weight:bold;
+     font-size:32px;
+}
+.headbanner h2
+{
+   margin:15px auto 15px 25px;
+   color:#fff;
+    
+    font-size:20px;
+    
+}
+.headbanner  .divtitle
+{
+    margin:15px auto 15px 25px;
+   color:#0099ff;
+     
+    font-size:20px; 
+ 
+    padding:4px;
+}
+/*------------------.contain--------------------------*/
+.main
+{
+     border-top:3px solid #0099ff;
+      margin:0px 0;
+position: relative;
+}
+.maincontain
+{
+    width:  950px;
+min-height: 600px;
+position: relative;
+margin: 0 auto;
+}
+.maincontain .maintop
+{
+    width: 940px;
+    min-height: 110px;
+    
+     margin-bottom:5px;
+    border-left:3px solid #0099ff;
+     border-bottom:3px solid #0099ff;
+     border-right:3px solid #0099ff;
+     border-radius: 0px 0px 15px 15px; 
+}
+
+.maincontain .mainleft
+{
+    
+      padding:3px;
+      width:212px;
+      float:left; 
+      
+}
+.maincontain .mainright
+{
+    
+    
+     width:700px;
+      float:left;
+       margin-left:10px;
+      
+}
+.maincontain .mainbottom
+{
+    clear:both;
+    padding:6px 10px 6px 10px;
+    width:  930px;
+min-height: 150px;
+position: relative;
+margin: 10px auto;
+color:#fff;
+background-color:#0099ff;
+ border-radius:7px;
+ font-size:13px;
+}
+.maincontain .mainbottom .divLink
+{
+     vertical-align:middle;
+     width:180px;
+}
+.maincontain .mainbottom .divLink a
+{
+   
+    font-size:12px;
+       color:#fff;
+       
+}
+.maincontain .mainbottom .divLink a:hover
+{
+     
+       color:#fff;
+       text-decoration:none;
+}
+.maincontain .mainbottom .divimagelink
+{
+     width:370px;
+        float:left;
+        padding-top:10px;
+       text-align:left;
+}
+ .divbottombottom
+{
+     padding:6px 10px 6px 10px;
+    width:  930px;
+    text-align:center;
+     color:#336633;
+       
+}
+
+/*----float---*/
+.divfloat
+{
+    color:#fff;
+     font-weight:bold;
+     z-index:9999;
+     position:fixed;
+     bottom:0; 
+     right:0; 
+     background:#98B9DC;
+     padding: 0 5px 0 5px;
+     font-size:13px;
+    min-width:200px;max-width:250px;
+      
+}
+.divfloat .divlink
+{
+     margin-top:3px;
+     margin-bottom:3px;
+     background-color:#fff;
+     border:2px solid  #3399cc;
+      
+      padding:3px;
+      padding-left:10px;
+        padding-right:10px;
+        min-width:180px;
+      max-width:230px;
+  
+}
+.divfloat .divlink a
+{
+     color:#333366;
+      font-size:12px;
+}
+.divfloat .divlink a:hover
+{
+    
+    text-decoration:none;
+     color:#333366;
+      font-size:12px;
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="首页"  description="首页">
+    <siteMapNode url="ProductList.aspx" title="提供产品"  description="提供产品" />
+    <siteMapNode url="Service.aspx" title="提供服务"  description="提供服务" />
+    <siteMapNode url="Aboutus.aspx" title="关于我们"  description="关于我们" />
+    <siteMapNode url="Application.aspx" title="应用案例"  description="应用案例" />
+    <siteMapNode url="ContactUs.aspx" title="联系我们"  description="联系我们" />
+    <siteMapNode url="InfoCenter.aspx" title="最新信息"  description="最新信息" />
+    <siteMapNode url="Support.aspx" title="产品支持"  description="产品支持" />
+
+  </siteMapNode>
+</siteMap>

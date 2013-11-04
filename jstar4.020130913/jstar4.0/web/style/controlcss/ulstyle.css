@@ -1,0 +1,24 @@
+﻿ul
+{
+     list-style:none;
+     padding:0px;
+     border:0px;
+     margin:0px;
+}
+ul li
+{
+    padding:0px;
+     border:0px;
+     margin:0px;
+}
+
+.ul1 .lititle1
+{
+    color:#fff;
+      background-color :#ff9933; 
+    padding:2px;
+}
+.ul1 .licontent1
+{
+    padding:2px;
+}

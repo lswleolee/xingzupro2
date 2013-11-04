@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language value="English">
+  
+  <MasterPage>
+    <Button>
+      <btnSearch>查找</btnSearch>
+      <btnLogin>登陆管理面板</btnLogin>
+      
+    </Button>
+    <Label>
+      <lblDesign>网站设计 朋川工作室</lblDesign>
+      <lblBigBannerTitle>专业的LED灯具供应商</lblBigBannerTitle>
+      <lblSmallBannerTitle1>产品优质，交货及时</lblSmallBannerTitle1>
+      <lblSmallBannerTitle2>证书完整，价格实惠</lblSmallBannerTitle2>
+      <lblbanquan>版权所有 2013 俊尚光电公司 版权所有,盗版必究</lblbanquan>
+      <Label1>在线咨询</Label1>
+    </Label>
+  </MasterPage>
+
+  <ProductList>
+    <Label>
+      <lblBigTitle>所有产品</lblBigTitle>
+      <ProductSearchListTitle>搜索列表</ProductSearchListTitle>
+      <lblPRODUCTLIST>产品列表</lblPRODUCTLIST>
+      <lblCategory>目录</lblCategory>
+      <lblSearchtitle>搜索:</lblSearchtitle>
+      <lblInquireProductTitle>填写您的查询详情</lblInquireProductTitle>
+      <lblName>姓名</lblName>
+      <lblSex>性别</lblSex>
+      <lblEmail>企业邮箱</lblEmail>
+      <lblsSubject>主题</lblsSubject>
+      <lblsMessage>内容</lblsMessage>
+      <lblsCountry>国家/地区</lblsCountry>
+      <lblInquireProductListTitle>你的咨询产品名称</lblInquireProductListTitle>
+
+      <lblProductTypetitle>产品类型</lblProductTypetitle>
+      <lblPlaceoforigintitle>原产地</lblPlaceoforigintitle>
+      <lblModelNotitle>型号</lblModelNotitle>
+      <lblPriceTermstitle>价格条款</lblPriceTermstitle>
+      <lblPaymentTermstitle>付款方式</lblPaymentTermstitle>
+      <lblPackagetitle>包装</lblPackagetitle>
+      <lblMinimumOrdertitle>最少起订量</lblMinimumOrdertitle>
+      <lblDeliveryTimetitle>交货期</lblDeliveryTimetitle>
+      <lblBrandNametitle>品牌名</lblBrandNametitle>
+    </Label>
+
+    <Button>
+      <btnSearch>搜索</btnSearch>
+      <btnSubmit>提交</btnSubmit>
+    </Button>
+
+
+
+  </ProductList>
+  <Default>
+    <Label>
+      <lblBigTitle> 应用实例</lblBigTitle>
+      <lblPRODUCTLISTTitle>产品列表</lblPRODUCTLISTTitle>
+    </Label>
+    
+  </Default>
+  <Support>
+    <Label>
+      <lblSUPPORTTitle>产品支持</lblSUPPORTTitle>
+    </Label>
+  </Support>
+  <Service>
+    <Label>
+      <lblSERVICETitle>配套服务</lblSERVICETitle>
+    </Label>
+  </Service>
+  <InfoCenter>
+    <Label>
+      <lblINFOCENTERTitle>信息中心</lblINFOCENTERTitle>
+    </Label>
+  </InfoCenter>
+  <Application>
+    <Label>
+      <lblAPPLICATIONTitle>应用案例</lblAPPLICATIONTitle>
+    </Label>
+  </Application>
+  <Aboutus>
+    <Label>
+      <lblABOUTUSTitle>关于我们</lblABOUTUSTitle>
+    </Label>
+  </Aboutus>
+  <ContactUs>
+    <Label>
+      <lblBigTitle>联系我们</lblBigTitle>
+      <lblCONTACTUSTitle>联系我们</lblCONTACTUSTitle>
+      <lbContactusTitle>填写您的查询详情</lbContactusTitle>
+      <lbltitle>标题</lbltitle>
+      <lblName>名字</lblName>
+      <lblCompanyName>企业名称</lblCompanyName>
+      <lblAddress>企业地址</lblAddress>
+      <lblEmail>商务电子邮件</lblEmail>
+      <lblFax>传真</lblFax>
+      <lblPhone>电话号码</lblPhone>
+      <lblsContent>内容</lblsContent>
+    </Label>
+    <Button>
+      <btnSubmit>提交</btnSubmit>
+    </Button>
+  </ContactUs>
+  <leftFAQsControl>
+    <Label>
+      <lblFAQSleft>相关问题</lblFAQSleft>
+    </Label>
+    <Button>
+      <btnMoreFaqs>更多</btnMoreFaqs>
+    </Button>
+  </leftFAQsControl>
+  <leftInfoCenterControl>
+    <Label>
+      <lbltitleleft>资讯中心</lbltitleleft>
+    </Label>
+    <Button>
+      <btnMoreFaqs>更多</btnMoreFaqs>
+    </Button>
+  </leftInfoCenterControl>
+  <TopicDetailShowControl>
+    <Label>
+      <lblBigTitle>关于我们</lblBigTitle>
+    </Label>
+  </TopicDetailShowControl>
+</language>
